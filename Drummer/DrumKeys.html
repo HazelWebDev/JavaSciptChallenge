@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="DrumKeys.css" />
+</head>
+<body>
+    <div class="keys">
+        <div data-key="65" class="key">
+          <kbd>A</kbd>
+          <span class="sound">clap</span>
+        </div>
+        <div data-key="83" class="key">
+          <kbd>S</kbd>
+          <span class="sound">hihat</span>
+        </div>
+        <div data-key="68" class="key">
+          <kbd>D</kbd>
+          <span class="sound">kick</span>
+        </div>
+        <div data-key="70" class="key">
+          <kbd>F</kbd>
+          <span class="sound">openhat</span>
+        </div>
+        <div data-key="71" class="key">
+          <kbd>G</kbd>
+          <span class="sound">boom</span>
+        </div>
+        <div data-key="72" class="key">
+          <kbd>H</kbd>
+          <span class="sound">ride</span>
+        </div>
+        
+      </div>
+    
+      <audio data-key="65" src="sounds/highclap.wav"></audio>
+      <audio data-key="83" src="sounds/hihat.wav"></audio>
+      <audio data-key="68" src="sounds/lowclap.wav"></audio>
+      <audio data-key="70" src="sounds/Sml-clap1.wav"></audio>
+      <audio data-key="71" src="sounds/Snp-clap.wav"></audio>
+      <audio data-key="72" src="sounds/Vrb-clap2.wav"></audio>
+    
+    <script src="DrumKeys.js"></script>
+</body>
+</html>
